@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Aqua Platform Documentation',
+  tagline: 'Security is our first name',
+  url: 'https://www.aquasec.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,6 +26,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  stylesheets: ['https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'],
 
   presets: [
     [
