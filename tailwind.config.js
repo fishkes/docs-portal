@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         blue: {
           300: '#00ffe4',
-          primary: '#001eff'
+          primary: '#001eff',
+          dark: '#142963'
         },
         dark: {
           primary: '#1b1b1d'
@@ -17,8 +18,13 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url(/img/bg.png)'
+      },
+      height: {
+        45: '11.25rem'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@headlessui/tailwindcss')({ prefix: 'ui' })
+  ],
 }

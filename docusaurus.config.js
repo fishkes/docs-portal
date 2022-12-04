@@ -39,6 +39,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         // blog: {
         //   showReadingTime: true,
@@ -50,6 +52,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+
       }),
     ],
   ],
@@ -62,25 +65,25 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Aqua Security',
+          src: 'img/aqua-docs-logo.png',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        // items: [
+        //   {
+        //     type: 'doc',
+        //     docId: 'intro',
+        //     position: 'left',
+        //     label: 'Tutorial',
+        //   },
+        //   { to: '/blog', label: 'Blog', position: 'left' },
+        //   {
+        //     href: 'https://github.com/facebook/docusaurus',
+        //     label: 'GitHub',
+        //     position: 'right',
+        //   },
+        // ],
       },
       footer: {
         style: 'dark',
@@ -125,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Aqua Security Documentation, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
