@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --ifm-color-primary: #001eff;
+    --ifm-color-primary-dark: #001be6;
+    --ifm-color-primary-darker: #0019d9;
+    --ifm-color-primary-darkest: #0015b3;
+    --ifm-color-primary-light: #1a34ff;
+    --ifm-color-primary-lighter: #2640ff;
+    --ifm-color-primary-lightest: #4d61ff;
+}
+
+body {
+    color: #405a75;
+}
+
+.markdown a {
+    color: #001eff;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+    color: #183278;
+    font-weight: bold;
+}
+
+.markdown h1 {
+    font-size: 1.25rem;
+}
+
+.markdown header h1 {
+    font-size: 1.5625rem;
+}
+
+.markdown h2 {
+    font-size: 1.125rem;
+}
+
+.markdown img {
+    border: 1px solid #fcfcfd;
+
+}
+
+.inline_img {
+    height: 15px !important;
+    margin-right: 4px;
+}
+
+input,
+button {
+    border: none;
+}

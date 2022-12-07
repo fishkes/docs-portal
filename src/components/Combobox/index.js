@@ -15,16 +15,16 @@ export default () => {
 
     return (
         <Listbox value={selectedVersion} onChange={setSelectedVersion}>
-            <Listbox.Button className='flex items-center font-bold'>
+            <Listbox.Button className='flex items-center font-bold bg-transparent text-white'>
                 <span>{selectedVersion.name}</span>
                 <ChevronDownIcon className=' h-6 w-6' />
             </Listbox.Button>
-            <Listbox.Options className='rounded-lg bg-white overflow-hidden top-2 relative'>
+            <Listbox.Options className='rounded-lg bg-white overflow-hidden top-2 relative list-none m-0 p-0'>
                 {versions.map((version) => (
                     <Listbox.Option
                         key={version.id}
                         value={version}
-                        className="bg-white text-black px-2 py-1 min-w-[150px] ui-active:bg-blue-500 ui-active:text-white"
+                        className="bg-white text-black px-2 py-2 min-w-[150px] ui-active:bg-blue-500 ui-active:text-white text-sm"
                     >
                         <div className='flex items-center'>
                             {version.name}
