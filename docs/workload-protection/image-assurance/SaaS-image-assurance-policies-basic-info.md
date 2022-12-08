@@ -99,7 +99,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
             <p>Allows you to select one or more custom scripts, that you write, to be evaluated as controls. If any
                 script returns a zero (Fail), the image fail the policy. </p>
             <hr className="hr-table"/>
-            <p>See also <a href="#">Custom Compliance Checks for Assurance Policies (TODO:  "SaaS-custom-compliance-checks-for-assurance-policies">}})</a>.</p>
+            <p>See also <a href="/">Custom Compliance Checks for Assurance Policies (TODO:  "SaaS-custom-compliance-checks-for-assurance-policies">}})</a>.</p>
         </td>
     </tr>
     <tr>
@@ -122,7 +122,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
         </td>
         <td>
             <p>Including this control enables scanning of the image by Aqua Dynamic Threat Analysis (DTA); see <a
-                    href="#">this section (TODO: "SaaS-aqua-dynamic-threat-analysis-dta">}})</a> for a full
+                    href="/">this section (TODO: "SaaS-aqua-dynamic-threat-analysis-dta">}})</a> for a full
                 description.</p>
             <p>The control fails the image if DTA scanning finds issues of the selected severity (low, medium, high, or
                 critical) or higher.</p>
@@ -136,9 +136,9 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
             </p>
         </td>
         <td>
-            <p>Lists all images that have been <a href="#">allowed (TODO:  "SaaS-allow-and-block-images#section-allow">}})</a></p>
+            <p>Lists all images that have been <a href="/">allowed (TODO:  "SaaS-allow-and-block-images#section-allow">}})</a></p>
             <hr className="hr-table"/>
-            <p>This control appears only in the <a href="#">Default Image Assurance Policy (TODO:  "#the-default-policy">}})</a>.</p>
+            <p>This control appears only in the <a href="/">Default Image Assurance Policy (TODO:  "#the-default-policy">}})</a>.</p>
         </td>
     </tr>
     <tr>
@@ -149,9 +149,9 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
             </p>
         </td>
         <td>
-            <p>Lists all images that have been <a href=" ">blocked</a></p>
+            <p>Lists all images that have been <a href="/">blocked</a></p>
             <hr className="hr-table"/>
-            <p>This control appears only in the <a href="#">Default Image Assurance Policy (TODO:  "#the-default-policy">}})</a>.</p>
+            <p>This control appears only in the <a href="/">Default Image Assurance Policy (TODO:  "#the-default-policy">}})</a>.</p>
         </td>
     </tr>
     <tr>
@@ -167,7 +167,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
                 key is specified, it must exist on the image, but can have any value. If a key-value pair is specified,
                 the key must exist with the value that you specify.</p>
             <p>This is basically the opposite of the "Labels Required" control.</p>
-            <p><br/>Note: This control is not related to <a href="#">Aqua Labels (TODO: "SaaS-aqua-labels">}})</a>.
+            <p><br/>Note: This control is not related to <a href="/">Aqua Labels (TODO: "SaaS-aqua-labels">}})</a>.
             </p>
         </td>
     </tr>
@@ -184,7 +184,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
                 key is specified, it must exist on the image, but can have any value. If a key-value pair is specified,
                 the key must exist with the value that you specify.</p>
             <p>This is basically the opposite of the "Labels Forbidden" control.</p>
-            <p><br/>Note: This control is not related to <a href="#">Aqua Labels (TODO: "SaaS-aqua-labels">}})</a>.
+            <p><br/>Note: This control is not related to <a href="/">Aqua Labels (TODO: "SaaS-aqua-labels">}})</a>.
             </p>
         </td>
     </tr>
@@ -200,7 +200,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
             <p>Fails the image if it contains malware</p>
             <hr className="hr-table" />
             <p>The control will be available in the UI only if scanning for malware is enabled in the Aqua Server. See
-                also <a href="#">Scanning for malware and sensitive data (TODO:  "SaaS-configure-scan-options#section-scanning-for-malware-and-sensitive-data">}})</a>.</p>
+                also <a href="/">Scanning for malware and sensitive data (TODO:  "SaaS-configure-scan-options#section-scanning-for-malware-and-sensitive-data">}})</a>.</p>
         </td>
     </tr>
     <tr>
@@ -284,7 +284,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
                 Content Automation Protocol) scanning to the images to which the script is applied. If any of the
                 settings defined in the OVAL file are violated, the results will be included in the scan results.</p>
             <hr className="hr-table"/>
-            <p>This control is not supported in <a href="#">direct scanning mode (TODO: "SaaS-scanning-mode">
+            <p>This control is not supported in <a href="/">direct scanning mode (TODO: "SaaS-scanning-mode">
                         }})</a>.</p>
         </td>
     </tr>
@@ -300,7 +300,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
             <p>Fails the image if it contains sensitive data, such as RSA keys</p>
             <hr className="hr-table"/>
             <p>The control will be available in the UI only if scanning for sensitive data is enabled in the Aqua
-                Server. See also <a href="#">Scanning for malware and sensitive data (TODO:  "SaaS-configure-scan-options#section-scanning-for-malware-and-sensitive-data">}})</a>.</p>
+                Server. See also <a href="/">Scanning for malware and sensitive data (TODO:  "SaaS-configure-scan-options#section-scanning-for-malware-and-sensitive-data">}})</a>.</p>
         </td>
     </tr>
     <tr>
@@ -355,7 +355,7 @@ Note that CF (Cloud Foundry) is a legacy name for VMware Tanzu.
         </td>
         <td>
             <p>Fails the image if its vulnerability severity is greater or equal to the selected value. See also <a
-                    href="#">Custom Vulnerability Severity (TODO: "SaaS-custom-vulnerability-severity">}})</a>.
+                    href="/">Custom Vulnerability Severity (TODO: "SaaS-custom-vulnerability-severity">}})</a>.
             </p>
         </td>
     </tr>

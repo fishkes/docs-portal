@@ -18,7 +18,7 @@ You can configure one or more **Container Runtime Policies** to audit and restri
 - Preventing a container from running. For example, you can configure a Container Runtime Policy to block the running of a container based on an image that has been found to be non-compliant during <a href="#">Image Assurance (TODO: < ref "SaaS-image-assurance-overview" >)</a> (including Tanzu Application Assurance).
 - Preventing a container from executing certain runtime activities. For example, a Container Runtime Policy could block running a blocked executable in a container, or prevent particular volumes from being mounted by a container.
 
-In addition, you can configure Container Runtime Policies to provide real-time protection of containers against malware. For more information, refer to [Real-time Malware Protection](./container-runtime-policies/SaaS-container-runtime-policy-components#section-real-time-malware-protection).
+In addition, you can configure Container Runtime Policies to provide real-time protection of containers against malware. For more information, refer to [Real-time Malware Protection](./container-runtime-policies/container-runtime-policy-components#section-real-time-malware-protection).
 
 Different Enforcers can be used to enforce Container Runtime Policies:
 
@@ -78,7 +78,7 @@ The predefined policies can be seen on the **Runtime Policies** page of the Aqua
 
 The Default runtime policy does not have a scope of its own; it is applied to all containers. In this sense, it is a global policy.
 
-However, the Default runtime policy can include the optional Bypass Scope control, which defines the containers to which this policy will not apply. See [Controls](./container-runtime-policies/SaaS-container-runtime-policy-components#section-controls).
+However, the Default runtime policy can include the optional Bypass Scope control, which defines the containers to which this policy will not apply. See [Controls](./container-runtime-policies/container-runtime-policy-components#section-controls).
 
 ## Block Non-compliant Images
 

@@ -42,7 +42,7 @@ To create a Response Policy:
 
 <img src="/img/aqua-hub/02_s00_Aqua_hub_response_policies.png" alt="02 s00 Aqua hub response policies.png" width="1706px" height="932px" style={{border: "1px solid #dedfe3"}} />
 
-6. In the **Select a Trigger** section, select one of the predefined triggers or "Customize Trigger". For more information on customizing a trigger, refer to [Trigger types](./SaaS-aqua-hub-response-policies#trigger-types).
+6. In the **Select a Trigger** section, select one of the predefined triggers or "Customize Trigger". For more information on customizing a trigger, refer to [Trigger types](#trigger-types).
 
 <img src="/img/aqua-hub/03_s00_Aqua_hub_response_policies.png" alt="03 s00 Aqua hub response policies.png" width="1706px" height="932px" style={{border: "1px solid #dedfe3"}} />
 
@@ -55,7 +55,7 @@ To create a Response Policy:
 
 :::info
 
-If a notification system is not already integrated with Aqua, you can integrate it from the Set Action section, without navigating to the **Integrations > Notifications** page while configuring policy. For more information, refer to [Integrate notification system during the policy configuration](./SaaS-aqua-hub-response-policies#integrate-notification-system-during-the-policy-configuration).
+If a notification system is not already integrated with Aqua, you can integrate it from the Set Action section, without navigating to the **Integrations > Notifications** page while configuring policy. For more information, refer to [Integrate notification system during the policy configuration](#integrate-notification-system-during-the-policy-configuration).
 
 :::
 

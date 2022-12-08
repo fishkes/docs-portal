@@ -72,7 +72,7 @@ Selection of this setting might generate a very high number of audit events, esp
 
 #### Command-based audit messages
 
-By default, the details for a command will include the command name without the parameters of the command. To include the full command, enable the **Audit full command arguments** option of the Forensics [control](container-runtime-policy-components#section-list-of-controls) of Container Runtime Policies.
+By default, the details for a command will include the command name without the parameters of the command. To include the full command, enable the **Audit full command arguments** option of the Forensics [control](../runtime-policies/container-runtime-policies/container-runtime-policy-components#section-list-of-controls) of Container Runtime Policies.
 
 :::info
 

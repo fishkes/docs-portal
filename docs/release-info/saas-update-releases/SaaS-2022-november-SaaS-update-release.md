@@ -45,4 +45,4 @@ In the [Incidents](../../workload-protection/behavioral-detection-and-incidents/
 
 ## VMware Tanzu Application Assurance Policies: Vulnerability Exploitability control
 
-VMware Tanzu Application Assurance Policies support the [Vulnerability Exploitability](../../workload-protection/image-assurance/SaaS-image-assurance-policies-basic-info#controls) control. If included in a policy, this control will fail the VMware Tanzu application if any exploitable vulnerabilities are detected during scanning.
+VMware Tanzu Application Assurance Policies support the [Vulnerability Exploitability](../../workload-protection/image-assurance/image-assurance-policies-basic-info#controls) control. If included in a policy, this control will fail the VMware Tanzu application if any exploitable vulnerabilities are detected during scanning.

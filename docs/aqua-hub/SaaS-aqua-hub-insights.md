@@ -17,7 +17,7 @@ Aqua platform has different scanning capabilities and security findings. Aqua is
 
 # Insights Screen
 
-The **Insights** screen enables you to see insights in the decreasing order of their [priorities](./SaaS-aqua-hub-insights#insights-priority) and act on them. It lists the prioritized insights based on various categories, along with the affected resources.
+The **Insights** screen enables you to see insights in the decreasing order of their [priorities](#insights-priority) and act on them. It lists the prioritized insights based on various categories, along with the affected resources.
 
 To see the Insights screen, navigate to mega menu, select **Aqua Hub** and from the left pane, select **Insights**.
 

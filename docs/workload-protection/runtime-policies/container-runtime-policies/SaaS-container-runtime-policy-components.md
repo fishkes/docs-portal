@@ -27,14 +27,14 @@ Two or more policies include a given control (e.g., Drift Prevention). At least 
 
 The scope of all Container Runtime Policies is also affected by the <a href="/">Global Bypass Scope (TODO: "SaaS-bypass-scope" >)</a>, which defines the containers to which no Container Runtime Policies will apply.
 
-Only the [Default Container Runtime Policy](../SaaS-container-runtime-policies#section-the-default-runtime-policy) can include the optional "Bypass Scope" control, which defines the containers to which this policy will not apply.
+Only the [Default Container Runtime Policy](../container-runtime-policies#section-the-default-runtime-policy) can include the optional "Bypass Scope" control, which defines the containers to which this policy will not apply.
 
 # Enforcement Mode
 
 A Container Runtime Policy can be configured in either of the following modes:
 
 - **Audit:** In case of a policy violation when deploying a container, or during its runtime, Aqua will only log an audit event with the **Run Time** event type. Aqua will **not** prevent the deployment of the container or block any prohibited activities from occurring.
-- **Enforce:** Aqua will enforce the policy as defined above; see [Effects of Container Runtime Policy enforcement](../SaaS-container-runtime-policies#section-effects-of-container-runtime-policy-enforcement).
+- **Enforce:** Aqua will enforce the policy as defined above; see [Effects of Container Runtime Policy enforcement](../container-runtime-policies#section-effects-of-container-runtime-policy-enforcement).
 
 # Controls
 
@@ -292,7 +292,7 @@ Square brackets indicate partial support by only some of the control's elements.
 <td><p><img src="/img/b3e9a94-Linux.png" class="inline_img" /> 
 [<img src="/img/9c10ee2-Tanzu.png" class="inline_img" />] (not ME)</p></td>
 
-<td><p>Prevents the container from reading, writing, or executing any files in the specifically named packages. See <a href=" #section-package-block">Package Block</a> below.</p></td>
+<td><p>Prevents the container from reading, writing, or executing any files in the specifically named packages. See <a href="#section-package-block">Package Block</a> below.</p></td>
 </tr><tr>
 <td><p>Port Block</p></td>
 
