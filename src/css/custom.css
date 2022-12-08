@@ -22,7 +22,7 @@ body {
     --docsearch-muted-color: #1b1b1d;
 }
 
-.DocSearch-Button {
+header .DocSearch-Button {
     border-radius: 5px !important;
     width: 690px;
     padding: 4px 16px !important;
