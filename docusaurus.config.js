@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Aqua Platform Documentation',
   tagline: 'Security is our first name',
-  url: 'https://tomer-docs-portal.netlify.app',
+  url: 'https://lighthearted-gumption-d002e6.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
