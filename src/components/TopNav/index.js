@@ -2,7 +2,6 @@ import React from 'react';
 
 
 export default function Home() {
-    window.location.href
     return (
         <nav className="top-nav flex justify-between items-center h-16 bg-white fixed top-0 left-0 w-full px-6">
             <a href="#">

@@ -6,15 +6,22 @@ import Categories from '@site/src/components/Categories'
 
 export default function Home() {
   return (
-    <BrowserOnly>
-      {() =>
-      (<div className='font-inter'>
-        <Topnav />
-        <HomepageHeader />
-        <main>
-          <Categories />
-        </main>
-      </div>)}
-    </BrowserOnly>
+    <div className='font-inter'>
+      <Topnav />
+      <HomepageHeader />
+      <main>
+        <Categories />
+      </main>
+    </div>
+    // <BrowserOnly>
+    //   {() =>
+    //   (<div className='font-inter'>
+    //     <Topnav />
+    //     <HomepageHeader />
+    //     <main>
+    //       <Categories />
+    //     </main>
+    //   </div>)}
+    // </BrowserOnly>
   );
 }

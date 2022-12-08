@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Aqua Platform Documentation',
   tagline: 'Security is our first name',
-  url: 'https://www.aquasec.com/',
+  url: 'https://tomer-docs-portal.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -131,7 +131,7 @@ const config = {
         appId: 'YN1Z4L0NG9',
         // Public API key: it is safe to commit it
         apiKey: '7aa3cb124e2b876a3a82f5ec2741cc21',
-        indexName: 'aqua',
+        indexName: 'aqua-test',
 
         // Optional: Algolia search parameters
         // searchParameters: {},

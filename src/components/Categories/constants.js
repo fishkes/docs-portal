@@ -16,31 +16,31 @@ export const categories = {
             title: "Aqua Hub",
             subtitle: "",
             icon: "aquaHub",
-            link: "/docs/saas/Release Information/coming-soon"
+            link: "/docs/category/release-information"
         },
         {
             title: "Workload Protection",
             subtitle: "",
             icon: "workloadProtection",
-            link: "/docs/saas/Release Information/coming-soon"
+            link: "/docs/category/release-information"
         },
         {
             title: "Supply chain Security",
             subtitle: "(Content coming soon)",
             icon: "supplyChainSecurity",
-            link: "/docs/saas/Release Information/coming-soon"
+            link: "/docs/category/release-information"
         },
         {
             title: "CSPM",
             subtitle: "(Content coming soon)",
             icon: "cspm",
-            link: "/docs/saas/Release Information/coming-soon"
+            link: "/docs/category/release-information"
         },
         {
             title: "Account Management",
             subtitle: "(Content coming soon)",
             icon: "accountManagement",
-            link: "/docs/saas/Release Information/coming-soon"
+            link: "/docs/category/release-information"
         }
     ]
 };
