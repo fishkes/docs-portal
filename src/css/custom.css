@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 :root {
     --ifm-color-primary: #001eff;
     --ifm-color-primary-dark: #001be6;
@@ -11,10 +12,21 @@
     --ifm-color-primary-light: #1a34ff;
     --ifm-color-primary-lighter: #2640ff;
     --ifm-color-primary-lightest: #4d61ff;
+
+
 }
 
 body {
     color: #405a75;
+    --docsearch-searchbox-background: #fff;
+    --docsearch-muted-color: #1b1b1d;
+}
+
+.DocSearch-Button {
+    border-radius: 5px !important;
+    width: 690px;
+    padding: 4px 16px !important;
+    min-height: 40px;
 }
 
 .markdown a {
@@ -51,6 +63,11 @@ body {
 .inline_img {
     height: 15px !important;
     margin-right: 4px;
+}
+
+.navbar__logo img {
+    width: 80px;
+    height: 24px;
 }
 
 input,

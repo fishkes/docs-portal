@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@docsearch/react': '3'
   '@docusaurus/core': 2.2.0
   '@docusaurus/module-type-aliases': 2.2.0
   '@docusaurus/preset-classic': 2.2.0
@@ -19,6 +20,7 @@ specifiers:
   tailwindcss: ^3.2.4
 
 dependencies:
+  '@docsearch/react': 3.3.0_sfoxds7t5ydpegc3knd667wn6m
   '@docusaurus/core': 2.2.0_zneentkx4scexj4pzosurqq55y
   '@docusaurus/preset-classic': 2.2.0_sfoxds7t5ydpegc3knd667wn6m
   '@headlessui/react': 1.7.4_sfoxds7t5ydpegc3knd667wn6m
